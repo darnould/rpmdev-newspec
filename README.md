@@ -1,6 +1,8 @@
 # rpmdev-newspec
-Docker image to create RPM SPEC file templates
+Docker image to create empty RPM SPEC file templates with `rpmdev-newspec`.
 
 ## Usage
 
-`docker run -v "$PWD":/rpmdev-newspec darnould/rpmdev-newspec`
+```sh
+docker run -v "$PWD":/rpmdev-newspec darnould/rpmdev-newspec
+```
